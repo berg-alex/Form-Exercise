@@ -1,0 +1,103 @@
+/* Blue background*/
+
+html { 
+  background: #4D8AFA no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* fieldset or as I understand it, 
+the box containing the labels, buttons, and input. */
+
+fieldset {
+	width: 400px;
+	height: 500px;
+	display: block;
+    margin: auto;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    border: none;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.fields {
+	position: relative;
+	top: 150px;
+}
+label {
+	display: block;
+	position: relative;
+	text-align: left;
+	padding-left: 20px;
+	top: -10px;
+}
+
+input {
+	width: 320px;
+	padding: 15px;
+	border: 2px;
+	top: -15px;
+	position: relative;
+	font-size: 20px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -100px;
+    width: 320px;
+    padding: 15px;
+    border: 2px;
+    background-color: lightgreen;
+    color: white;
+    font-size: 20px;
+    height: 55px;
+}
+
+/* Button hover and click feature 
+
+(I stumbled upon the click feature when researching how to use hover 
+and decided it was a nice addition) */
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h1 {
+	text-align: center;
+	position: relative;
+	top: 120px;
+	font-weight: normal;
+}
+
+img {
+	height: 35px;
+	display: block;
+	margin: auto;
+	position: relative;
+	top: -10px;
+}
+div {
+	position: relative;
+	text-align: center;
+	color: white;
+	left: -10px;
+	top: -40px;
+}
+div div {
+	position: relative;
+	text-decoration: underline;
+	left: 110px;
+	top: -18px;
+}
